@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		858351372A5F4E4C0096A1B1 /* linkedinUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858351362A5F4E4C0096A1B1 /* linkedinUIApp.swift */; };
+		858351392A5F4E4C0096A1B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858351382A5F4E4C0096A1B1 /* ContentView.swift */; };
+		8583513B2A5F4E4D0096A1B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8583513A2A5F4E4D0096A1B1 /* Assets.xcassets */; };
+		8583513E2A5F4E4D0096A1B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8583513D2A5F4E4D0096A1B1 /* Preview Assets.xcassets */; };
+		858351462A5F4F2A0096A1B1 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858351452A5F4F2A0096A1B1 /* SearchBar.swift */; };
+		858351492A5F511A0096A1B1 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858351482A5F511A0096A1B1 /* PostModel.swift */; };
+		8583514B2A5F51340096A1B1 /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8583514A2A5F51340096A1B1 /* NetworkModel.swift */; };
+		8583514D2A5F52240096A1B1 /* InvitationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8583514C2A5F52240096A1B1 /* InvitationView.swift */; };
+		8583514F2A6047AB0096A1B1 /* MyNetworkScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8583514E2A6047AB0096A1B1 /* MyNetworkScreen.swift */; };
+		858351512A604B1C0096A1B1 /* PostCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858351502A604B1C0096A1B1 /* PostCardView.swift */; };
+		858351532A604FE10096A1B1 /* ProfileAndPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858351522A604FE10096A1B1 /* ProfileAndPostView.swift */; };
+		858351552A6050F90096A1B1 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858351542A6050F90096A1B1 /* PostView.swift */; };
+		858351572A6053EF0096A1B1 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858351562A6053EF0096A1B1 /* HomeScreen.swift */; };
+		858351592A60555E0096A1B1 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858351582A60555E0096A1B1 /* TabView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		858351332A5F4E4C0096A1B1 /* linkedinUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = linkedinUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		858351362A5F4E4C0096A1B1 /* linkedinUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = linkedinUIApp.swift; sourceTree = "<group>"; };
+		858351382A5F4E4C0096A1B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8583513A2A5F4E4D0096A1B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8583513D2A5F4E4D0096A1B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		858351452A5F4F2A0096A1B1 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		858351482A5F511A0096A1B1 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		8583514A2A5F51340096A1B1 /* NetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
+		8583514C2A5F52240096A1B1 /* InvitationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvitationView.swift; sourceTree = "<group>"; };
+		8583514E2A6047AB0096A1B1 /* MyNetworkScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNetworkScreen.swift; sourceTree = "<group>"; };
+		858351502A604B1C0096A1B1 /* PostCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCardView.swift; sourceTree = "<group>"; };
+		858351522A604FE10096A1B1 /* ProfileAndPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileAndPostView.swift; sourceTree = "<group>"; };
+		858351542A6050F90096A1B1 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		858351562A6053EF0096A1B1 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		858351582A60555E0096A1B1 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		858351302A5F4E4C0096A1B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8583512A2A5F4E4C0096A1B1 = {
+			isa = PBXGroup;
+			children = (
+				858351352A5F4E4C0096A1B1 /* linkedinUI */,
+				858351342A5F4E4C0096A1B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		858351342A5F4E4C0096A1B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				858351332A5F4E4C0096A1B1 /* linkedinUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		858351352A5F4E4C0096A1B1 /* linkedinUI */ = {
+			isa = PBXGroup;
+			children = (
+				858351472A5F51060096A1B1 /* Models */,
+				858351442A5F4F190096A1B1 /* Views */,
+				858351362A5F4E4C0096A1B1 /* linkedinUIApp.swift */,
+				858351382A5F4E4C0096A1B1 /* ContentView.swift */,
+				8583513A2A5F4E4D0096A1B1 /* Assets.xcassets */,
+				8583513C2A5F4E4D0096A1B1 /* Preview Content */,
+			);
+			path = linkedinUI;
+			sourceTree = "<group>";
+		};
+		8583513C2A5F4E4D0096A1B1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8583513D2A5F4E4D0096A1B1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		858351442A5F4F190096A1B1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				858351452A5F4F2A0096A1B1 /* SearchBar.swift */,
+				8583514C2A5F52240096A1B1 /* InvitationView.swift */,
+				8583514E2A6047AB0096A1B1 /* MyNetworkScreen.swift */,
+				858351502A604B1C0096A1B1 /* PostCardView.swift */,
+				858351522A604FE10096A1B1 /* ProfileAndPostView.swift */,
+				858351542A6050F90096A1B1 /* PostView.swift */,
+				858351562A6053EF0096A1B1 /* HomeScreen.swift */,
+				858351582A60555E0096A1B1 /* TabView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		858351472A5F51060096A1B1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				858351482A5F511A0096A1B1 /* PostModel.swift */,
+				8583514A2A5F51340096A1B1 /* NetworkModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		858351322A5F4E4C0096A1B1 /* linkedinUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 858351412A5F4E4D0096A1B1 /* Build configuration list for PBXNativeTarget "linkedinUI" */;
+			buildPhases = (
+				8583512F2A5F4E4C0096A1B1 /* Sources */,
+				858351302A5F4E4C0096A1B1 /* Frameworks */,
+				858351312A5F4E4C0096A1B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = linkedinUI;
+			productName = linkedinUI;
+			productReference = 858351332A5F4E4C0096A1B1 /* linkedinUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8583512B2A5F4E4C0096A1B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					858351322A5F4E4C0096A1B1 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 8583512E2A5F4E4C0096A1B1 /* Build configuration list for PBXProject "linkedinUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8583512A2A5F4E4C0096A1B1;
+			productRefGroup = 858351342A5F4E4C0096A1B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				858351322A5F4E4C0096A1B1 /* linkedinUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		858351312A5F4E4C0096A1B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8583513E2A5F4E4D0096A1B1 /* Preview Assets.xcassets in Resources */,
+				8583513B2A5F4E4D0096A1B1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8583512F2A5F4E4C0096A1B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				858351512A604B1C0096A1B1 /* PostCardView.swift in Sources */,
+				858351532A604FE10096A1B1 /* ProfileAndPostView.swift in Sources */,
+				858351392A5F4E4C0096A1B1 /* ContentView.swift in Sources */,
+				858351492A5F511A0096A1B1 /* PostModel.swift in Sources */,
+				858351572A6053EF0096A1B1 /* HomeScreen.swift in Sources */,
+				858351372A5F4E4C0096A1B1 /* linkedinUIApp.swift in Sources */,
+				8583514B2A5F51340096A1B1 /* NetworkModel.swift in Sources */,
+				858351462A5F4F2A0096A1B1 /* SearchBar.swift in Sources */,
+				8583514D2A5F52240096A1B1 /* InvitationView.swift in Sources */,
+				858351552A6050F90096A1B1 /* PostView.swift in Sources */,
+				858351592A60555E0096A1B1 /* TabView.swift in Sources */,
+				8583514F2A6047AB0096A1B1 /* MyNetworkScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8583513F2A5F4E4D0096A1B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		858351402A5F4E4D0096A1B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		858351422A5F4E4D0096A1B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"linkedinUI/Preview Content\"";
+				DEVELOPMENT_TEAM = VPZY62WQBQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = chihiro.linkedinUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		858351432A5F4E4D0096A1B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"linkedinUI/Preview Content\"";
+				DEVELOPMENT_TEAM = VPZY62WQBQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = chihiro.linkedinUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8583512E2A5F4E4C0096A1B1 /* Build configuration list for PBXProject "linkedinUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8583513F2A5F4E4D0096A1B1 /* Debug */,
+				858351402A5F4E4D0096A1B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		858351412A5F4E4D0096A1B1 /* Build configuration list for PBXNativeTarget "linkedinUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				858351422A5F4E4D0096A1B1 /* Debug */,
+				858351432A5F4E4D0096A1B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8583512B2A5F4E4C0096A1B1 /* Project object */;
+}
